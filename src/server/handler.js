@@ -1,4 +1,4 @@
-import InputError from '../error/InputError.js';
+import InputError from '../exception/InputError.js';
 import predictBinaryClassificationCancer from '../services/inferenceService.js';
 import storeData from '../services/storeData.js';
 import loadHistoryData from '../services/loadHistoryData.js';
