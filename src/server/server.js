@@ -1,6 +1,6 @@
 import Hapi from '@hapi/hapi';
 import logger from '../app/logging.js';
-import routes from './server/routes.js';
+import routes from './routes.js';
 import loadModel from '../services/loadModel.js';
 import InputError from '../exception/InputError.js';
 
